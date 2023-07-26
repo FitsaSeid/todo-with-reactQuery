@@ -13,10 +13,10 @@ export const addTodo = async (todo) => {
     await BASE_URL.post('/task', todo);
 }
 export const updateTodo = async (id) => {
-    await BASE_URL.patch(`/tasks/${id}`);
+    await BASE_URL.patch(`/task/${id}`);
 }
 export const deleteTodo = async (id) => {
-    await BASE_URL.delete(`/tasks/${id}`);
+    await BASE_URL.delete(`/task/${id}`);
 }
 
 
